@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+p,
+ul,
+li,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+img {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+
+/* 头部start */
+.header {
+  height: 78px;
+  border-bottom: 1px solid rgb(110, 107, 107);
+}
+.inner {
+  overflow: hidden;
+  width: 1251px;
+  height: 100%;
+}
+.logo {
+  float: left;
+  width: 217px;
+  height: 45px;
+  margin: 15px 18px 0 0;
+}
+.logo a {
+  display: block;
+  overflow: hidden;
+  text-indent: -9999px;
+
+  background-image: url(../images/logo_big01.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.header .address {
+  float: left;
+  margin: 29px 0;
+  line-height: 1;
+  font-size: 12px;
+}
+
+.header .address a {
+  padding: 9px;
+  margin-left: 10px;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #ccc;
+}
+.header .navs {
+  float: left;
+  margin: 25px 0 0 66px;
+}
+.header .navs a {
+  margin-right: 35px;
+  font-size: 12px;
+  color: #000;
+}
+.header .tools {
+  float: right;
+  margin-top: 25px;
+
+  font-size: 12px;
+}
+.header .tools img {
+  margin-right: 20px;
+}
+.header .tools a {
+  padding: 9px;
+  border: 1px solid #ccc;
+  line-height: 1;
+  color: #000;
+}
+
+/* 头部end */
+
+/* 主体start */
+.main {
+  height: 662px;
+}
+.main img {
+  width: 100%;
+  height: 662px;
+}
+/* 主体end */
+
+/* 商品 start */
+.goods {
+  display: flex;
+  height: 477px;
+}
+.goods > div {
+  flex: 1;
+  height: 100%;
+}
+.goods a {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #000;
+}
+.goods img {
+  width: 290px;
+  height: 191px;
+}
+.goods .tea {
+  background-color: #eee2c8;
+}
+
+.goods .cake {
+  background-color: #ddc69d;
+}
+.goods .souvenir {
+  background-color: #eee2c8;
+}
+.goods img {
+  margin-bottom: 60px;
+}
+.goods h4 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+
+  font-size: 14px;
+  line-height: 14px;
+}
+.goods p {
+  margin-top: 40px;
+  font-size: 12px;
+}
+
+/* 商品end */
+
+/* 底部start */
+.footer {
+  font-size: 0;
+  height: 125px;
+  text-align: center;
+  color: #fff;
+  background-color: #3e2d23;
+}
+.footer .service {
+  margin-top: 35px;
+  font-size: 12px;
+}
+.footer .service .item1 {
+  float: left;
+}
+.footer .service .item1 a {
+  padding-left: 25px;
+  padding-right: 15px;
+  border-right: 1px solid #ccc;
+}
+.footer .service .item1 a:first-child {
+  padding-left: 35px;
+}
+.footer .service .item1 a:last-child {
+  border-right: 0;
+}
+.footer .service .item2 a {
+  margin-right: 35px;
+}
+.footer .service a {
+  color: #fff;
+}
+.footer .compony {
+  margin-top: 30px;
+}
+.footer .compony span {
+  font-size: 12px;
+  margin-right: 25px;
+}
+
+/* 底部end */
